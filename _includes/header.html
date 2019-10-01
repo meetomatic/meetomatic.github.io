@@ -19,11 +19,14 @@
           </li>
           {%- endif -%}
         {% endfor -%}
-        <li class="nav-item">
+        <li class="nav-item {% if page.url == '/about.html' %}active{% endif %} ">
           <a class="nav-link" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/articles">Help Articles and Videos</a>
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+        <li class="nav-item {% if page.url == '/guides.html' %}active{% endif %} ">
+          <a class="nav-link" href="/guides">Guides and Videos</a>
         </li>
       </ul>
     </div>
