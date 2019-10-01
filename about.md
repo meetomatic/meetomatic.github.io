@@ -11,4 +11,4 @@ to schedule meetings, appointments and interviews.
 
 Visit [meetomatic.com](https://meetomatic.com) to schedule your own meeting!
 
-Check us out on [Twitter](https://twitter.com/meetomatic) and LinkedIn too!
+Check us out on [Twitter](https://twitter.com/meetomatic) and [LinkedIn](https://www.linkedin.com/company/meetomatic/) too!
