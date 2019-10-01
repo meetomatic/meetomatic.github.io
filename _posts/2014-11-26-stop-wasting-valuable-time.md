@@ -12,6 +12,7 @@ themselves ‘very satisfied’ with their time management.
 > Of those who deemed themselves effective time managers, 85 percent reported
 > that they received strong support in scheduling and allocating time. Only 7
 > percent of ineffective time allocators said the same.
+> {:.blockquote}
 
 This is a remarkable insight – particularly when you consider how much time is
 wasted company-wide in the scheduling of meetings (we’ll address this is an
