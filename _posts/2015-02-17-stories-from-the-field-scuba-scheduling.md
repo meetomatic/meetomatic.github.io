@@ -15,14 +15,13 @@ scheduling requirements over the years.
 > wear several hats and have no central network for any of them. I set up
 > meetings for volunteer efforts that I organize. I also design websites for
 > Non-Profits that get together for web site useage training.
-> {:.blockquote}
 > 
 > Most often, as a scuba instructor, I use Meet-O-Matic to sort out the best time
 > for training sessions. I teach private classes for small groups and customize
 > the scheduling rather than insisting everyone show up when it’s most convenient
 > for me. When I have 5 or 6 students with all of their conflicting time demands
 > Meet-O-Matic is invaluable.
-> {:.blockquote}
+{:.blockquote}
 
 We love hearing stories like this, and always find it fascinating to hear the
 non-traditional uses people have for a scheduling tool. Not every meeting takes

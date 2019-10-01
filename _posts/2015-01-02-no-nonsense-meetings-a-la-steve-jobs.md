@@ -20,7 +20,7 @@ The article is by Drake Baer of Business Insider UK, who writes that
 
 > American businesses lose an estimated $37 billion a year due to meeting
 > mistakes. Steve Jobs made sure that Apple wasn’t one of those companies.
-> {:.blockquote}
+{:.blockquote}
 
 Jobs’ techniques involved keeping meetings small, making sure that there was a
 specific named person driving each agenda item, and refusing to let people use

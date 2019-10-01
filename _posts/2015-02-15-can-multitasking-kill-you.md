@@ -21,7 +21,7 @@ has to say:
 > Multitasking creates a dopamine-addiction feedback loop, effectively rewarding
 > the brain for losing focus and for constantly searching for external
 > stimulation.
-> {:.blockquote}
+{:.blockquote}
 
 Even better, [look at Levitin’s full article in the Guardian](http://www.theguardian.com/science/2015/jan/18/modern-world-bad-for-brain-daniel-j-levitin-organized-mind-information-overload?CMP=share_btn_link). 
 We thought this
