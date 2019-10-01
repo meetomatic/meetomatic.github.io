@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "No-nonsense meetings à la Steve Jobs"
+author: "Marc"
 ---
  
 I had the great good fortune to work at the headquarters of Apple Inc. in

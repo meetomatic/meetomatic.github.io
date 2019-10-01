@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Coming soon, the all-new Meet-O-Matic!"
+author: "Leo"
 ---
 
 The end of 2014 is bringing some radical changes to Meet-O-Matic that we’re

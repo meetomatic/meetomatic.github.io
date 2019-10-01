@@ -1,6 +1,7 @@
 ---
 layout: post
 title: " The 6 principles of building a great meeting scheduler"
+author: "Leo"
 ---
 
 This post from Marc highlights some of the thinking behind how Meet-O-Matic was built:
