@@ -2,35 +2,41 @@
 <div class="py-5 border-top">
   <div class="container">
 
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
     <div class="row">
 
-      <div class="col-sm">
+      <div class="col-sm-4">
+
+        <h4>Blog posts</h4>
+
         <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
+          {% assign dateCount = 0 %}
+          {% for post in site.posts %}
+              {% if dateCount == 3 %}
+                  <li><a href="/archive">See all</a></li>
+                  {% break %}
+              {% endif %}
+              {% assign currentDate = post.date | date: "%B %Y" %}
+              {% if currentDate != myDate %}
+                  <li><a href="/archive#{{ post.date | date: "%B-%Y"}}">{{ currentDate }}</a></li>
+                  {% assign dateCount = dateCount | plus: 1 %}
+                  {% assign myDate = currentDate %}
+              {% endif %}
+          {% endfor %}
         </ul>
+
       </div>
 
-
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
+      <div class="col-sm-8">
+        <p>
+            MeetOMatic is the World's Simplest Meeting Scheduler!
+        </p>
 
         <p>
-          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
+            It has been around since 1998, and continues to provide the quickest way to schedule meetings, appointments and interviews.
+        </p>
+
+        <p>
+            Visit <a href="https://meetomatic.com">meetomatic.com</a> to schedule your own meeting!            
         </p>
       </div>
 
