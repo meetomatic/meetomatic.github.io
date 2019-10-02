@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
     <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
-      <img style="height: 28px" src="/static/text-logo-small.png">
+      <img class="brand-image mr-3" src="/static/text-logo-small.png">
     </a>
 
     {%- assign page_paths = site.header_pages -%}
@@ -22,11 +22,11 @@
         <li class="nav-item {% if page.url == '/about.html' %}active{% endif %} ">
           <a class="nav-link" href="/about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{site.posts[0].url}}">Blog</a>
-        </li>
         <li class="nav-item {% if page.url == '/guides.html' %}active{% endif %} ">
-          <a class="nav-link" href="/guides">Guides and Videos</a>
+          <a class="nav-link" href="/">Guides and videos</a>
+        </li>
+        <li class="nav-item {% if page.url == '/archive.html' or page.is_post %}active{% endif %} ">
+          <a class="nav-link" href="{{site.posts[0].url}}">Blog</a>
         </li>
       </ul>
     </div>
