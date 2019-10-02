@@ -24,3 +24,39 @@
 .brand-image {
   height: 28px;
 }
+
+a.share-link:hover {
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 36px;
+}
+
+.icon-twitter {
+  color: #55acee;
+  &:hover {
+    color: scale-color(#55acee, $lightness: -30%);
+  }
+  &::before {
+    content: '\f081';
+  }
+}
+.icon-facebook {
+  color: #3b5998;
+  &:hover {
+    color: scale-color(#3b5998, $lightness: -30%);
+  }
+  &::before {
+    content: '\f082';
+  }
+}
+.icon-linkedin {
+  color: #007bb5;
+  &:hover {
+    color: scale-color(#007bb5, $lightness: -30%);
+  }
+  &::before {
+    content: '\f08c';
+  }
+}
