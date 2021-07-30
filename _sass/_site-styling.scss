@@ -60,3 +60,15 @@ a.share-link:hover {
     content: '\f08c';
   }
 }
+
+.post-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  margin-right: 1em;
+}
+
+.post-attribution {
+  display: flex;
+  flex-direction: row;
+}

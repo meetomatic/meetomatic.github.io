@@ -7,6 +7,7 @@ title: "Blog archive"
 
    {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%B %Y" %}
+       {% assign author = site.data.people[page.author] %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
            <h3><a name="{{ post.date | date: "%B-%Y"}}"></a>{{ currentDate }}</h3>

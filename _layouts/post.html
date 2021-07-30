@@ -5,16 +5,25 @@ layout: default
 
   <header>
     <h1>{{ page.title | escape }}</h1>
-    <p class="text-muted">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {%- assign date_format = "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-      {%- assign author = site.data.people[page.author] -%}
-        • {{ author.name }}
-      {%- endif -%}
-    </p>
+
+    {% assign author = site.data.people[page.author] %}
+    <div class="post-attribution">
+      <img class="post-avatar" alt="{{ author.name }}&#x27;s avatar" height="48" width="48" src="{{ author.avatar }}">
+      <p class="text-muted">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {%- assign date_format = "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+        {%- if page.author -%}
+        {%- assign author = site.data.people[page.author] -%}
+        {%- if author.url -%}
+          • <a href='{{ author.url }}'>{{ author.name }}</a>
+        {%- else -%}
+          • {{ author.name }}
+        {%- endif -%}
+        {%- endif -%}
+      </p>
+    <div>
   </header>
 
   <hr>
