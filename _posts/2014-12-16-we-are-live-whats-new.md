@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "We are live! What’s new?"
-author: "Leo"
+author: leo
 ---
 
 It’s been a long time coming, but today we finally took the new 

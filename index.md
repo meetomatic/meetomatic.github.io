@@ -3,6 +3,33 @@ layout: default
 title: Meet-O-Matic guides
 ---
 
+{% assign top_post = site.posts[0] %}
+{% assign author = site.data.people[top_post.author] %}
+
+<header class="post-header">
+  <h2 class="post-title"><a href="{{ top_post.url }}">{{ top_post.title }}</a></h2>
+  <div class="post-attribution">
+    <img class="post-avatar" alt="{{ author.name }}&#x27;s avatar" height="48" width="48" src="{{ author.avatar }}">
+    <p class="post-meta text-muted">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {%- assign date_format = "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+
+        • <span class="post-author">
+      {%- if author.url -%}
+        <a href='{{ author.url }}'>{{ author.name }}</a>
+      {%- else -%}
+        {{ author.name }}
+      {%- endif -%}
+        </span>
+        on {{ top_post.date | date_to_string }}
+    </p>
+  </div>
+</header>
+
+<hr>
+
 # Meet-O-Matic guides
 
 ## Guides

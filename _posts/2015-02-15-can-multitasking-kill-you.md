@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Can Multitasking Kill You?"
-author: "Marc"
+author: marc
 ---
 
 It seems pretty unlikely — although mobile phone usage (especially texting)

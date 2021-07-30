@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Time Is King"
-author: "Leo"
+author: leo
 ---
 
 In a 2013 article in the McKinsey Quarterly, entitled ‘[Making time management

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Announcing integration with GoToMeeting Free"
-author: "Leo"
+author: leo
 ---
 
 We’re excited to announce a new integration with GoToMeeting’s super simple new

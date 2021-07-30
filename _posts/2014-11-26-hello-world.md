@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello"
-author: "Leo"
+author: leo
 ---
 
 Welcome to the Meet-O-Matic blog – follow us on here or
