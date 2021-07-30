@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stories from the field – Scuba Scheduling"
-author: "Leo"
+author: leo
 ---
 
 We recently received the following story from Jim Gregory, a long time user of

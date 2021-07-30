@@ -11,7 +11,8 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • {{ page.author }}
+      {%- assign author = site.data.people[page.author] -%}
+        • {{ author.name }}
       {%- endif -%}
     </p>
   </header>
